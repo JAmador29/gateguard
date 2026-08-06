@@ -1,10 +1,9 @@
+import { SignIn } from '@clerk/react-router';
+
 const SignInPage = () => {
   return (
     <section className="page">
-      <h2 className="page-title">Sign In</h2>
-      <p className="page-text">
-        Use this route to handle user authentication flow in your guard router.
-      </p>
+      <SignIn />
     </section>
   );
 };
