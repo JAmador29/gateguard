@@ -1,6 +1,5 @@
 import NavLink from "./NavLinks";
-import { Show, SignInButton, SignUpButton, UserAvatar, UserButton } from '@clerk/react'
-
+import { Show, SignInButton, SignUpButton, UserButton } from '@clerk/react-router'
 
 
 const Nav = ({
